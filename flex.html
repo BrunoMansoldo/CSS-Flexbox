@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex</title>
+    <link rel="stylesheet" href="flex.css">
+</head>
+<body>
+
+    <h2>Flex 1</h2>
+    <div class="flex-container">
+        <div class="item flex-1">A</div>
+        <div class="item flex-1">BBB</div>
+        <div class="item flex-1">C</div>
+        <div class="item flex-1">D</div>
+        <div class="item flex-1">EE</div>
+    </div>
+
+    <h2>Flex mix</h2>
+    <div class="flex-container">
+        <div class="item flex-2">A</div>
+        <div class="item flex-1">BBB</div>
+        <div class="item flex-2">C</div>
+        <div class="item flex-1">D</div>
+        <div class="item flex-2">EE</div>
+    </div>
+
+    <h2>width ignorado > basis = 0</h2>
+    <div class="flex-container">
+        <div class="item flex-2 largura">A</div>
+        <div class="item flex-1 largura">BBB</div>
+        <div class="item flex-2 largura">C</div>
+        <div class="item flex-1 largura">D</div> 
+        <div class="item flex-2 largura">EE</div>
+    </div>
+</body>
+</html>

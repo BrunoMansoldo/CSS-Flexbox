@@ -1,0 +1,44 @@
+.flex-container {
+    display: flex;
+    border: 1px solid black;
+    max-width: 500px;
+}
+
+.default {
+    flex-flow: row nowrap;
+}
+.wrap {
+    flex-flow: row wrap;
+}
+.wrap-reverse {
+    flex-flow: row wrap-reverse;
+}
+.row-reverse {
+    flex-flow: row-reverse nowrap;
+}
+.row-reverse_wrap {
+    flex-flow: row-reverse wrap;
+}
+.row-reverse_wrap-reverse {
+    flex-flow: row-reverse wrap-reverse;
+}
+.column_wrap-reverse {
+    flex-flow: column wrap-reverse;
+}
+.column-reverse_wrap-reverse {
+    flex-flow: column-reverse wrap-reverse;
+} 
+.column_nowrap {
+    flex-flow: column nowrap;
+} 
+
+.item {
+    background-color: blueviolet;
+    margin: 5px;
+    color: white;
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+}
+
